@@ -1,5 +1,6 @@
 # Website1
-Provisioning a web server with automation and publish a website onto it
+Provisioning a web server with automation and publish a website onto it.
+
 Creating a virtual server with terraform, deploy a web server(nginx) onto it and configure networking(security group) so that you can access the website.
 
 
