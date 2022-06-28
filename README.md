@@ -1,6 +1,8 @@
 # Website1
 Provisioning a web server with automation and publish a website onto it
 Creating a virtual server with terraform, deploy a web server(nginx) onto it and configure networking(security group) so that you can access the website.
+
+
 Steps:
 1.Create (provision) an aws instance.
 2.Install terraform in it.
