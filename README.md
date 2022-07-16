@@ -5,12 +5,18 @@ Creating a virtual server with terraform, deploy a web server(nginx) onto it and
 
 
 Steps:
+
 1.Create (provision) an aws instance.
 
-
 2.Install terraform in it.
+  - sudo apt-get update && sudo apt-get install -y gnupg software-properties-common curl
+  - curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
+  - sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
+  - sudo apt-get update && sudo apt-get install terraform
 
 3.Create a folder and add main.tf file inside it.
+  - mkdir terraform
+  - touch main.tf
 
 4.Edit the main.tf file with the required configurations to create another instance in aws.
 
